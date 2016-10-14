@@ -44,3 +44,7 @@ Route::group($admin, function () {
         ]);
     });
 });
+
+
+// test url
+Route::get('token','TestController@token');
